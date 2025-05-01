@@ -1,5 +1,6 @@
 import argparse
 import numpy as np
+import os
 from sklearn.model_selection import train_test_split
 from model import ClassificationModelMNIST
 
@@ -21,8 +22,8 @@ def main(dataset_path):
     # History plot
     model.plot_history()
     # Guardar pesos
-    output_weights = 'model_weights/' + dataset_path.replace('.npz', '_weights.weights.h5')
-    model.model.save_weights(output_weights)
+    output_path = os.path.join("local_models", dataset_path.replace(".npz", ".keras"))
+    model.model.save(output_path)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
