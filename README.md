@@ -1,4 +1,6 @@
-# Actividad evaluable: Aprendizaje Federado
+# Actividad Cloud Computing: Aprendizaje Federado
+
+**Profesor:** Jesús Jorge Armenta Segura
 
 **Integrantes del equipo:**
 
