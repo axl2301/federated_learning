@@ -25,6 +25,11 @@ def main(dataset_path):
     output_path = os.path.join("local_models", dataset_path.replace(".npz", ".keras"))
     model.model.save(output_path)
 
+
+"""
+Para correr en terminal y automáticamente se guarde el modelo .keras 
+dentro de la carpeta local_models
+"""
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', type=str, required=True, help="Ruta al archivo .npz")
