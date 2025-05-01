@@ -1,4 +1,6 @@
-# Actividad Cloud Computing: Aprendizaje Federado
+# Actividad Cloud Computing - Aprendizaje Federado
+
+Este repositorio contiene el desarrollo de una práctica de **Federated Learning** utilizando el dataset **MNIST**, con la implementación y comparación de tres estrategias de agregación de modelos: **FedAvg**, **FedProx** y **FedOpt**.
 
 **Profesor:** Jesús Jorge Armenta Segura
 

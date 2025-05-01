@@ -1,5 +1,4 @@
 import os
-import pandas as pd
 from sklearn.metrics import accuracy_score
 import numpy as np
 import tensorflow as tf
@@ -102,4 +101,3 @@ results.append(['FedOpt', acc])
 # Mostrar comparación final
 for result in results:
     print(f"Modelo: {result[0]}, Accuracy: {result[1]:.4f}")
-
