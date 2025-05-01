@@ -100,6 +100,6 @@ global_model.validate_model(x_test, y_test)
 results.append(['FedOpt', acc])
 
 # Mostrar comparación final
-df = pd.DataFrame(results, columns=["Método", "Accuracy"])
-print("\n Comparación final de métodos:\n")
-df.head()
+for result in results:
+    print(f"Modelo: {result[0]}, Accuracy: {result[1]:.4f}")
+
