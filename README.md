@@ -96,5 +96,7 @@ python global_model.py
 Ejemplo de salida
 
 Modelo: FedAvg, Accuracy: 0.0974
+
 Modelo: FedProx, Accuracy: 0.0974
+
 Modelo: FedOpt, Accuracy: 0.1011
